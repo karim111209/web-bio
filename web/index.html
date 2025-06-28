@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Saya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="mode-toggle">
+    <button onclick="toggleDarkMode()">🌙/☀️ Mode</button>
+  </div>
+
+  <div class="container">
+    <div class="profile">
+      <img src="foto.jpg" alt="Foto Profil">
+      <h1>Karim</h1>
+      <p>Mahasiswa Teknik Informatika yang suka membuat website dan aplikasi.</p>
+    </div>
+
+    <div class="section">
+      <h2>Informasi Kontak</h2>
+      <ul>
+        <li>Email: karim@email.com</li>
+        <li>Telepon: 081234567</li>
+        <li>Aceh, NAD</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Pendidikan</h2>
+      <ul>
+        <li>SMA Aceh (2017–2020)</li>
+        <li>Universitas Sumaatera Utara – Teknik Informatika (2020–sekarang)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Hobi & Keahlian</h2>
+      <ul>
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>Desain Grafis</li>
+        <li>Fotografi</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>

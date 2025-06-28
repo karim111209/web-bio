@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f0f0f0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode .container {
+  background: #1e1e1e;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section h2 {
+  color: inherit;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.dark-mode .section h2 {
+  border-color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* Tombol toggle */
+.mode-toggle {
+  text-align: center;
+  padding: 15px;
+}
+
+.mode-toggle button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode-toggle button:hover {
+  background-color: #666;
+}
